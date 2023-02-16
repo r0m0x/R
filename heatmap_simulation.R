@@ -5,7 +5,7 @@ library(viridisLite)
 library(plotly) # For interactive plots
 
 # Daily & Hourly rates (from data):
-vol_data <- read_csv("/Users/r0m0/Desktop/Pooled Orders/defi_volume_hour_of_day.csv")
+vol_data <- read_csv("defi_volume_hour_of_day.csv")
 
 # Hourly rates
 hourly_rates <- vol_data %>% 
